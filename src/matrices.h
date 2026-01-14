@@ -6,9 +6,7 @@
 
 
 
-// Unil Friday, I did not realize we were allowed to use GLM in order to make matrix math easier.
-// As a result, I implemented some GLM functionality by myself....
-// home cooked linear algebra :sob:
+// home cooked linear algebra 
 #include <cmath>
  struct Mat4 {
     float m[16]; // 4x4 matrix
