@@ -1,0 +1,16 @@
+Controls:
+ - Space: begin/stop rotation
+ - Arrow Keys: translate
+ - Plus/Minus Keys: scale
+ - PageUp/PageDown: move closer/backward
+ - R key: reset
+ - Escape: quit
+
+To switch between rendering modes, press:
+1: Phong + texturing
+2: Gouraud shading
+3: View depth buffer
+4: Flat shading (may need to zoom in to see faces)
+
+ To compile and run the program:
+ g++ main.cpp -lGL -lGLEW -lglfw
